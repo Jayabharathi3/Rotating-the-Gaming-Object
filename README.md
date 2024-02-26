@@ -2,16 +2,20 @@
 
 ## Aim:
 To develop a 3D application for rotating the gaming objects in unity.
+
 ## Algorithm:
 ### Step1:
 Start
+
 ### Start2:
 Click File -> Scene -> Select the scene -> Save as-> New folder(Scenes)-> File name (Expno1)
+
 ### Start3:
 Click Hierarchy -> 3DObject -> Cylinder
 Hierarchy -> 3DObject -> Capsule
 Hierarchy -> 3DObject -> Text
 Hierarchy -> Effects -> Particle system
+
 ### Start4:
 Create a folder in project and name as Materials
 Material folder -> Create -> Material (Name: Cylinder)
@@ -37,7 +41,31 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class jm : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right, Vector3.up, 70 * Time.deltaTime);
+    }
+}
+
+```
 
 ## Output:
+![arvr exp 1](https://github.com/Jayabharathi3/Rotating-the-Gaming-Object/assets/120367796/f1980460-5c26-421d-b6be-a03dda7e3448)
+
 
 ## Result:
+Thus a 3D application for rotating the gaming objects in unity is developed successfully.

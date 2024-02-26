@@ -41,7 +41,7 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
-```
+```C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
